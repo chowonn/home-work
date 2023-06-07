@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul,
+a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  padding: 0;
+}
+
+fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  width: 15.25rem;
+  height: 10.0625rem;
+  margin: 20px;
+  padding: 12px;
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  box-shadow: 5px 5px 0px #AAAAAA;
+  border-radius: 5px;
+}
+
+.header{
+  font-size: 0.9375rem;
+  color: #FFFF00;
+  margin-bottom: 8px;
+}
+
+.login-form{
+  position: relative;
+  width: 13.75rem;
+  height: 6.625rem;
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 8px;
+}
+
+.label_id,
+.label_pw{
+  display: inline-block;
+  width: 56px;
+  height: 21px;
+  font-size: 0.875rem;
+  user-select: none;
+  margin-left: 8px;
+}
+
+.input_id{
+  margin-bottom: 4px;
+}
+
+.input_id,
+.input_pw{
+  width: 5.625rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  padding: 0 0 0 8px;
+  margin-right: 8px;
+  border: 1px solid gray;
+}
+
+.find-list{
+  width: 209px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-top: 1px solid gray;
+}
+
+
+.find-wrap li a{
+font-size: 0.8125rem;
+}
+
+.find-wrap::after{
+  padding: 0;
+   content: "";
+  display: block;
+  clear: both;  
+}
+
+.join{
+  float: left;
+  padding: 0 15px 0 11px;
+ 
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+button{
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+.loginbtn{
+  width: 3.125rem;
+  height: 3.3125rem;
+  background-color: #ED552F;
+  color: white;
+  font-size: 0.8125rem;
+  border-radius: 5px;
+  padding: 4px;
+  align-items: center;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
