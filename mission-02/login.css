@@ -1,6 +1,13 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
 *{
   box-sizing: border-box;
   margin: 0;
+}
+
+body{
+  font: inherit;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 ul,
@@ -20,6 +27,7 @@ fieldset{
   padding: 0;
 }
 
+/* 로그인 content */
 .content{
   width: 15.25rem;
   height: 10.0625rem;
@@ -30,12 +38,14 @@ fieldset{
   border-radius: 5px;
 }
 
+/* 로그인 헤더 */
 .header{
   font-size: 0.9375rem;
   color: #FFFF00;
   margin-bottom: 8px;
 }
 
+/* 로그인 폼 요소 */
 .login-form{
   position: relative;
   width: 13.75rem;
@@ -55,6 +65,7 @@ fieldset{
   margin-left: 8px;
 }
 
+
 .input_id{
   margin-bottom: 4px;
 }
@@ -69,31 +80,7 @@ fieldset{
   border: 1px solid gray;
 }
 
-.find-list{
-  width: 209px;
-  margin-top: 8px;
-  margin-left: 5px;
-  border-top: 1px solid gray;
-}
-
-
-.find-wrap li a{
-font-size: 0.8125rem;
-}
-
-.find-wrap::after{
-  padding: 0;
-   content: "";
-  display: block;
-  clear: both;  
-}
-
-.join{
-  float: left;
-  padding: 0 15px 0 11px;
- 
-}
-
+/* 로그인 버튼 */
 a:hover{
   text-decoration: underline;
 }
@@ -118,3 +105,32 @@ button{
   top: 8px;
   right: 8px;
 }
+
+/* 가입 및 찾기 영역 */
+.find-wrap li a{
+  font-size: 0.8125rem;
+  }
+  
+  .find-wrap::after{
+    padding: 0;
+    content: "";
+    display: block;
+    clear: both;  
+}
+
+.find-list{
+  width: 209px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-top: 1px solid gray;
+}
+
+.find-list li{
+  margin-top: 8px;
+}
+
+.join{
+  float: left;
+  padding: 0 15px 0 11px;
+}
+
