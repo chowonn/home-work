@@ -106,7 +106,7 @@ fieldset{
     padding: 0;
     content: "";
     display: block;
-    clear: both;  
+    clear: left;  
 }
 
 .find-list{
