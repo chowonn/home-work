@@ -1,0 +1,86 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+body{
+  font: inherit;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul,
+a,
+li{
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+a{
+  display: block;
+}
+
+/* 사이트 영역 */
+.site-container{
+  width: 11.875rem;
+  margin: 30px;
+  padding: 8px 12px 12px 12px;
+  background: #CCCCCC;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.head{
+  font-size: 0.9375rem;
+  margin-bottom: 8px;
+}
+
+.head span{
+  color: #ED552F;
+}
+
+/* 사이트 컨텐츠 영역 */
+.site-contents{
+  background: white; 
+  border-radius: 5px;
+  border: 1px solid gray;
+  overflow: hidden; 
+  height: 1.6875rem;                    
+  width: 10.375rem;
+  padding-top: 3px;
+  transition: height 0.4s;
+}
+
+.dropdown {
+  padding-left: 24px; 
+  transition: padding-top 0.3s 0.4s;
+}
+
+.dropdown li{
+  padding-bottom: 7px;
+}
+
+/* hover 되었을 경우 */
+.site-contents:hover{ 
+  padding: 0;
+  height: 9.375rem;
+  transition: height 0.4s;
+}
+
+.site-contents:hover li:first-child{
+  padding-top: 4px;
+}
+
+.site-contents:hover li:last-child{
+  padding-bottom: 12px;
+}
+
+.site-contents:hover ul{
+  padding-top: 8px;
+  transition: padding-top 0.4s 0.3s;  
+}
+
+
