@@ -17,7 +17,8 @@ web cafe 시안 중 새소식 영역을 구현한 결과입니다.
 <p align="center">
   <img src="./grid.PNG">
 </p>
-
+</br>
+</br>
 
 ## Markup 구조
 ```
